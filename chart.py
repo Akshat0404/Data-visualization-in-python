@@ -7,7 +7,7 @@ from dash.dependencies import Input, Output, State
 
 
 airline_data = pd.read_csv(
-    r"C:\Users\Vijay Kumar Roy\Downloads\airline_data.csv",
+    r"airline_data.csv",
     encoding="ISO-8859-1",
     dtype={'Div1Airport': str, 'Div1TailNum': str,
            'Div2Airport': str, 'Div2TailNum': str})
